@@ -6,149 +6,169 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>About me</title>
+    <title>El extranjero de Albert Camus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f98a5fce63.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Barra de navegación superior fija -->
+    <nav id="barra-superior" class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">El extranjero de Albert Camus: resumen y análisis del libro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Contenido con barra lateral -->
     <main>
-    <!-- Cabecera -->
         <article class="container bg-body">
-            <div class="row bg-body-secondary align-middle ">
-                <div class="px-0">
-                    <div class="card text-dark rounded-0 border border-0">
-                        <img src="./img/perfil.jpg" class="card-img img-fluid rounded-0 border border-0" alt="Perfil Chema">
-                    </div>
-                </div>
-            </div>
-            <div class="row bg-body-secondary p-3 text-center">
-                <div class="col-sm-4">
-                    <div class="card rounded-0">
-                        <h5 class="card-header">Redes sociales</h5>
-                        <div class="card-body">
-                        <p class="card-text"><a href="https://www.instagram.com/chemasb/" target="_blank" class="text-dark"><i class="fa-brands fa-instagram"></i></a> <a href="https://twitter.com/chemasb" target="_blank" class="text-dark"><i class="fa-brands fa-twitter"></i></a> <a href="https://www.facebook.com/chema.sanchez.397/" target="_blank" class="text-dark"><i class="fa-brands fa-facebook"></i></a> <a href="https://www.linkedin.com/in/chema-s%C3%A1nchez-blasco-572b4124/" target="_blank" class="text-dark"><i class="fa-brands fa-linkedin"></i></a> <a href="https://www.youtube.com/channel/UCW3mVWQlYRBwd2s0wmwdUrA" target="_blank" class="text-dark"><i class="fa-brands fa-youtube"></i></a></p>
+            <div class="row bg-body-secondary p-3">
+                <div class="col-8">
+                    <div data-bs-spy="scroll" data-bs-target="#barra-lateral" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                        <div id="introduccion" class="mt-5 pt-3">
+                            <h4>Introducción</h4>
+                            <p class="card-text">El extranjero (L'Étranger) es un libro de Albert Camus publicado en el año 1942 y supone una de sus obras más leídas en el mundo.</p>
+                            <p class="card-text">La novela nos presenta a Meursault, un hombre franco-argelino que se muestra pasivo y ajeno al mundo que le rodea. Tras cometer un crimen, no experimenta el arrepentimiento, tampoco se inmuta ante la muerte de su madre. La actitud del protagonista choca con las convenciones sociales y lo conduce a su propia sentencia de muerte.</p>
+                            <p class="card-text">La obra, por su temática, está enmarcada dentro de la filosofía del absurdo y también ha sido estudiada dentro del pensamiento existencialista, a pesar de la negativa de su autor de pertenecer a esta corriente. Veamos cómo está presente a través de un resumen y análisis del libro.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card rounded-0">
-                    <h5 class="card-header">Contacto</h5>
-                    <div class="card-body">
-                        <p class="card-text"><i class="fa-solid fa-phone"></i> 635.941.723 | <a href="mailto://csanchez@barnatic.es" target="_blank" class="text-dark"><i class="fa-sharp fa-solid fa-envelope"></i></a> <a href="mailto://csanchez@barnatic.es" target="_top" class="text-dark link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover">csanchez@barnatic.es</a></p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card rounded-0">
-                        <h5 class="card-header">Última actualización</h5>
-                        <div class="card-body">
-                        <p class="card-text">19 de diciembre de 2023</p>
-                        </div>                
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!-- Freelance -->
-        <article class="container bg-body">
-            <div class="row">
-                <h5 class="card-header text-bg-dark px-5 py-2">Freelance en el sector de las TIC</h5>
-            </div>
-            <div class="row">            
-                <div class="col-lg-6 px-0">
-                    <img src="./img/barnatic.jpg" class="card-img img-fluid rounded-0" alt="Barnatic">
-                </div>
-                <div class="col-lg-6 px-0">
-                    <div class="card text-center rounded-0 border border-0">
-                        <div class="card-body">
-                        <p class="card-text px-3">He trabajado como consultor de software, administrador de redes, desarrollador de aplicaciones y coordinador de personal. Hace unos años creé mi propia empresa y desde entonces trabajo en régimen de autónomo colaborando en proyectos con diversas empresas relacionadas con el sector de las tecnologías de la información.</p>
-                        <a href="http://www.barnatic.es" target="_blank" class="btn btn-dark">Más información</a>
+                        <div id="resumen" class="mt-5">
+                            <h4>Resumen</h4>
+                            <div id="resumen1" class="mt-4">
+                                <h5>Primera parte: el delito</h5>
+                                <p>Meursault es un hombre que vive en Argel. Un día recibe la noticia del fallecimiento de su madre, la cual estaba internada en una residencia de ancianos. Pero al protagonista parece no afectarle.</p>
+                                <p>Cuando llega al lugar habla con el director del asilo, quien queda sorprendido por la pasividad del protagonista ante los hechos. Meursault tampoco desea ver el cuerpo de su madre.</p>
+                                <p>Al día siguiente, durante el funeral, el único que acompaña a Meursault es un antiguo amigo de su madre, quien se muestra considerablemente afectado.</p>
+                                <p>Después del entierro lo que más parece preocupar a Meursault es llegar a Argel para descansar.</p>
+                                <p>Una vez en Argel, el protagonista se encuentra con Marie Cardona, una compañera de trabajo. La muchacha se sorprende al enterarse de la muerte de su madre y al ver que Meursault no siente tristeza.</p>
+                                <p>Un día, al regresar del trabajo, el protagonista se encuentra con su vecino Raymond, este le cuenta cómo pegó a su amante y le pide a Meursault que redacte una carta para ayudarle a que esta vuelva con él.</p>
+                                <p>En la siguiente cita con Meursault, Marie le pregunta si la ama y el protagonista le dice que no. Escuchan unas voces en la casa de Raymond, quien está maltratando a su amante. Cuando llega la policía se lleva a Raymond. Meursault decide defender a su vecino ante la policía cuando este se lo pide.</p>
+                                <p>Raymond invita a Meursault a pasar un fin de semana en la cabaña de un amigo. Allí se encuentran con el hermano de la amante de Raymond. Tras un altercado, Raymond queda herido. Meursault se convierte en asesino cuando mata al hombre que agredió a su amigo.</p>
+                            </div>
+                            <div id="resumen2" class="mt-4">
+                                <h5>Segunda parte: la sentencia de muerte</h5>
+                                <p>La segunda parte de la novela desarrolla el proceso penal y el interrogatorio del protagonista tras ser arrestado por asesinato.</p>
+                                <p>Tanto el juez como su abogado se admiran por la apatía y la falta de tristeza del protagonista ante la muerte de su madre. Los testigos tampoco benefician la absolución del protagonista. Entonces es considerado culpable y condenado a muerte. El protagonista desea cambiar su destino aunque, finalmente, se resigna y termina aceptando su muerte.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!-- Fotografía -->
-        <article class="container bg-body">
-            <div class="row">
-                <h5 class="card-header text-bg-dark px-5 py-2">Aficionado a la fotografía</h5>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6 col-lg-3 px-0">
-                    <div class="card border border-top-0 border-bottom-0 rounded-0">
-                        <img src="./img/foto_rural.jpg" class="card-img-top rounded-0" alt="Fotografía rural">
-                        <div class="card-body bg-body-secondary">
-                            <h5 class="card-title">Fotografía rural</h5>
-                            <p class="card-text">Perouges<br />(Francia)</p>
-                            <a href="https://www.instagram.com/p/fKut_XyRBi/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" class="btn btn-dark">Ver imagen</a>
+                        <div id="analisis" class="mt-5">
+                            <h4>Análisis</h4>
+                            <p>El libro El extranjero está dividido en dos partes, cada una de ellas conformada por cinco capítulos. La obra está narrada en primera persona con un estilo parco, en el que el protagonista relata los acontecimientos de manera simple y transparente.</p>
+                            <p>La novela es estudiada desde el absurdo o el absurdismo, hecho que resulta ser el tema central de la obra. Esta filosofía se rige por el escepticismo, que duda de todo aquello que no se puede evidenciar. El sentimiento del absurdo emana del libro a través de su protagonista pero, ¿cómo lo hace?</p>
+                            <div id="analisis1" class="mt-4">
+                                <h5>Meursault como representante del absurdo</h5>
+                                <p>Meursault es un personaje cuya vida se rige por una sucesión de momentos mecánicos y rutinarios, es un hombre al que nada parece importarle y que parece haber aprendido a relativizar todo cuanto sucede a su alrededor.</p>
+                                <p>Precisamente esto hace de Meursault un hombre extraño en medio de todos aquellos que afirman que la vida tiene sentido, a pesar de la fe y de la esperanza que tienen los que le rodean. Él parece indolente hasta de su propia existencia, ajeno a los valores y la moral establecida, es un hombre que ha comprendido el sinsentido de la vida y que no busca hallar significado a algo que no lo tiene.</p>
+                                <p>Esto no solo se muestra en sus actos, sino también en sus palabras. Desde el principio el tono empleado es frío y distante, esto ayuda a que el lector no empatice con el personaje y valore los acontecimientos desde el desafecto. La primera frase del libro es un ejemplo de ello, donde muestra la insensibilidad ante un hecho como la muerte de un ser querido, su madre:</p>
+                                <blockquote class="blockquote">
+                                    <p>Hoy mamá ha muerto. O tal vez ayer, no sé. He recibido un telegrama del asilo: “Madre fallecida. Entierro mañana. Sentido pésame”. Nada quiere decir. Tal vez fue ayer.</p>
+                                </blockquote>
+                            </div>
+                            <div id="analisis2" class="mt-4">
+                                <h5>La aceptación del sinsentido de la vida</h5>
+                                <p>Meursault, con su actitud ante la realidad, nos descubre que la vida no significa nada. La aceptación del sinsentido de la vida es su punto de partida y, al mismo tiempo, esto es lo que hace disfrutar de los placeres de la vida.</p>
+                                <p>El protagonista, a diferencia de otros personajes que se rigen por los valores y la esperanza, ha asumido lo absurdo de la vida y también la inminente llegada de la muerte. Este hecho se puede apreciar cuando está en prisión y recibe la visita de un sacerdote que viene a hablarle de la otra vida.</p>
+                                <p>Entonces, Meursault afirma en relación con las palabras y creencias del capellán:</p>
+                                <blockquote class="blockquote">
+                                    <p>Parecía tan seguro. Sin embargo, ninguna de sus certidumbres valía un cabello de mujer. Ni siquiera tenía la certeza de estar vivo porque vivía como un muerto. Yo parecía tener las manos vacías. Pero estaba seguro de mí, seguro de todo, más seguro que él, seguro de mi vida y de esta muerte que iba a llegar.</p>
+                                </blockquote>
+                                <p>El protagonista se encuentra inmerso en una realidad regida por una escala de valores que juzga lo que está bien y lo que está mal. Pero, ¿cómo repercute esta actitud ante la realidad en el personaje? ¿Cómo la asume la sociedad que lo rodea?</p>
+                            </div>
+                            <div id="analisis3" class="mt-4">
+                                <h5>La sociedad que condena</h5>
+                                <p>El extranjero manifiesta lo absurdo de las convicciones sociales. Por las cuales se termina juzgando al protagonista pues, en el proceso judicial él ha decidido no mentir para no “amoldarse” a aquello que la sociedad considera “correcto”. Ha mantenido su verdad con respecto a la muerte de su madre, a la que no ha llorado como todos esperan, y tampoco ha mostrado reacciones propias durante el proceso de duelo.</p>
+                                <p>La realidad es que el protagonista es señalado por la falta de sensibilidad ante el fallecimiento de su progenitora. El juez intenta que el protagonista muestre “arrepentimiento” o saque a relucir sus sentimientos.</p>
+                                <p>Finalmente, Meursault es condenado a muerte, la acusación se centra en la personalidad del acusado y no en el asesinato que ha cometido. Meursault termina asumiendo su condena y reconociendo la indiferencia del mundo.</p>
+                            </div>
+                            <div id="analisis4" class="mt-4">
+                                <h5>¿Por qué se titula “El Extranjero”?</h5>
+                                <p>En la etimología “extranjero” deriva del francés antiguo “estrangier”, que significa extraño y del latín extraneus.</p>
+                                <p>¿Qué implica que esta palabra de título al libro de Camus? Meursault es un personaje cuyo trasfondo es complejo de entender para el lector, es difícil seguir su lógica. Vemos como parece ajeno a su propia vida.</p>
+                                <p>El propio autor, Camus declaró la siguiente afirmación para presentar el libro: “En nuestra sociedad, un hombre que no llora en el funeral de su madre corre el peligro de ser sentenciado a muerte”.</p>
+                                <p>El título y su significado también está directamente relacionado con el contexto de guerra y posguerra. Al fin y al cabo, la obra es el reflejo de una sociedad carente de dirección.</p>
+                                <p>Tras la Segunda Guerra Mundial permanece un ambiente de desesperanza y frustración en Europa. Albert Camus, sumido en este contexto, crea a este personaje que representa la carencia de los valores de la época, un personaje que se caracteriza por la pasividad ante la vida pero que, finalmente, lo conducen a un destino trágico por ser un “extraño” en medio del mundo que lo rodea, al que no le encuentra sentido.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 px-0">
-                    <div class="card border border-top-0 border-bottom-0 rounded-0">
-                        <img src="./img/foto_urbana.jpg" class="card-img-top rounded-0" alt="Fotografía urbana">
-                        <div class="card-body bg-body-secondary">
-                            <h5 class="card-title">Fotografía urbana</h5>
-                            <p class="card-text">Roma<br />(Italia)</p>
-                            <a href="https://www.instagram.com/p/BD_wl_FyRFm/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" class="btn btn-dark">Ver imagen</a>
+                        <div id="personajes" class="mt-5">
+                            <h4>Personajes principales</h4>
+                            <ul>
+                                <li>Meursault: es el narrador y protagonista del libro. Destaca por su frialdad e indiferencia ante los trágicos acontecimientos que se presentan en su vida y jamás expresa sus pensamientos.</li>
+                                <li>Marie: es la compañera de trabajo de Meursault y se enamora de él tras varias citas, al punto de querer contraer matrimonio con él.</li>
+                                <li>Raymond: es el vecino de Meursault y también se convierte en su amigo. Es violento y maltrata a su amante.</li>
+                                <li>Salamano: es un anciano que se caracteriza por su mal humor. Vive en el mismo bloque que el protagonista y tiene un perro al que insulta y maltrata continuamente.</li>
+                                <li>Masson: es el amigo de Raymond, quien lo invita a pasar el fin de semana a una cabaña de la playa.</li>
+                                <li>El árabe: es el hermano de la amante de Raymond, a quien Meursault asesina.</li>
+                                <li>El juez: es el encargado de llevar el caso del asesinato.</li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 px-0">
-                    <div class="card border border-top-0 border-bottom-0 rounded-0">
-                        <img src="./img/foto_viajes.jpg"  class="card-img-top rounded-0" alt="Fotografía viajes">
-                        <div class="card-body bg-body-secondary">
-                            <h5 class="card-title">Fotografía de viajes</h5>
-                            <p class="card-text">Punta Cana<br />(Rep. Dominicana)</p>
-                            <a href="https://www.instagram.com/p/RlrJxpyRDP/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" class="btn btn-dark">Ver imagen</a>
+                        <div id="autor" class="mt-5">
+                            <h4>Sobre Albert Camus</h4>
+                            <p>Albert Camus fue un novelista, ensayista, periodista y filósofo de nacionalidad franco-argelina, que nació en el seno de una familia humilde y quedó huérfano de padre durante la Primera Guerra Mundial.</p>
+                            <p>Empezó a escribir desde muy joven y se empezó a formar en filosofía en la Universidad de Argel. El extranjero, publicada en 1942, es la obra que lo dio a conocer. A menudo, Albert Camus ha sido estudiado desde el absurdo y la filosofía existencialista, de la cual él pretendía distanciarse.</p>
+                            <p>Entre sus obras más destacadas están:</p>
+                            <ul>
+                                <li>El extranjero (1942)</li>
+                                <li>El mito de Sísifo (1942)</li>
+                                <li>La peste (1947)</li>
+                                <li>La caída (1956)</li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 px-0">
-                    <div class="card border border-top-0 border-bottom-0 rounded-0">
-                        <img src="./img/foto_eventos.jpg" class="card-img-top rounded-0" alt="Fotografía  eventos">
-                        <div class="card-body bg-body-secondary">
-                            <h5 class="card-title">Fotografía de eventos</h5>
-                            <p class="card-text">Liverpool<br />(Reino Unido)</p>
-                            <a href="https://www.instagram.com/p/BIvjWhDh24n/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" class="btn btn-dark">Ver imagen</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <!-- Música -->
-        <article class="container bg-body">
-            <div class="row">
-                <h5 class="card-header text-bg-dark px-5 py-2">Músico amateur</h5>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6 px-0">
-                    <div class="card bg-body-secondary rounded-0">
-                        <img src="./img/guitarras.jpg" class="card-img-top rounded-0" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Mis guitarras</h5>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-body-secondary"><a href="https://kytary.es/washburn-d10sb/HN103505/" target="_blank" class="card-link stretched-link text-dark link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Acústica: Washburn D10SB</a></li>
-                                <li class="list-group-item bg-body-secondary"><a href="https://hricanebrand.myshopify.com/products/hricane-spalted-maple-tenor-size-ultra-slim-ukulele-for-travel?_pos=1&_sid=de2b95172&_ss=r" target="_blank" class="card-link stretched-link text-dark link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Ukelele: Hricane UKS-1</a></li>
-                                <li class="list-group-item bg-body-secondary"><a href="https://www.fender.com/es-ES/guitarras-electricas/guitarras-electricas-stratocaster/player-stratocaster-hss/0144522506.html" target="_blank" class="card-link stretched-link text-dark link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Eléctrica: Fender Stratocaster</a></li>
+                        <div id="articulos" class="mt-5 mb-5">
+                            <h4>Artículos recomendados</h4>
+                            <p>Si te gustó este artículo, también te puede interesar:</p>
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="https://www.culturagenial.com/es/existencialismo/" target="_blank" rel="noopener noreferrer">Existencialismo: características, autores y obras</a></li>
+                                <li class="list-group-item"><a href="https://www.culturagenial.com/es/libro-la-metamorfosis-de-franz-kafka/" target="_blank" rel="noopener noreferrer">La metamorfosis de Franz Kafka</a></li>
+                                <li class="list-group-item"><a href="https://www.culturagenial.com/es/libros-para-leer/" target="_blank" rel="noopener noreferrer">Libros imprescindibles para leer en tu vida</a></li>
+                                <li class="list-group-item"><a href="https://www.culturagenial.com/es/libro-el-principito/" target="_blank" rel="noopener noreferrer">El Principito: análisis y resumen del libro</a></li>
+                                <li class="list-group-item"><a href="https://www.culturagenial.com/es/novelas-cortas/" target="_blank" rel="noopener noreferrer">Novelas cortas para leer en una jornada</a></li>
+                                <li class="list-group-item"><a href="https://www.culturagenial.com/es/libros-para-adolescentes/" target="_blank" rel="noopener noreferrer">Libros para adolescentes que no podrán dejar de leer</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 px-0">
-                    <div class="card bg-body-secondary rounded-0">
-                        <img src="./img/piano.jpg" class="card-img-top rounded-0" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Mi piano</h5>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-body-secondary"><a href="https://es.yamaha.com/es/products/musical_instruments/pianos/p_series/p-125/index.html" target="_blank" class="card-linkbtn stretched-link text-dark link-offset-3 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-100-hover">Piano: Yamaha P-125</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <!-- Barra lateral de contenidos -->
+                <div class="col-4 mt-5 pt-3">
+                    <nav id="barra-lateral" style="position: fixed;" class="h-100 flex-column align-items-stretch pe-4 px-4 border-start">
+                        <nav class="nav nav-pills flex-column">
+                            <h4 class="card-header mb-3">Contenidos</h4>
+                            <a class="nav-link" href="#introduccion">Introducción</a>
+                            <a class="nav-link" href="#resumen">Resumen</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#resumen1">Primera parte: el delito</a>
+                                <a class="nav-link ms-3 my-1" href="#resumen2">Segunda parte: la sentencia de muerte</a>
+                            </nav>
+                            <a class="nav-link" href="#analisis">Análisis</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#analisis1">Meursault como representante del absurdo</a>
+                                <a class="nav-link ms-3 my-1" href="#analisis2">La aceptación del sinsentido de la vida</a>
+                                <a class="nav-link ms-3 my-1" href="#analisis3">La sociedad que condena</a>
+                                <a class="nav-link ms-3 my-1" href="#analisis4">¿Por qué se titula “El Extranjero”?</a>
+                            </nav>
+                            <a class="nav-link" href="#personajes">Personajes principales</a>
+                            <a class="nav-link" href="#autor">Sobre Albert Camus</a>
+                            <a class="nav-link" href="#articulos">Artículos recomendados</a>
+                        </nav>
+                    </nav>
                 </div>
             </div>
-
         </article>
     </main>
+    <!-- Barra de navegación inferior fija -->
+    <nav id="barra-inferior" class="navbar fixed-bottom navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Fuente: https://www.culturagenial.com/es/el-extranjero-de-albert-camus/</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
 </body>
 </html>
